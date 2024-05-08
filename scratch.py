@@ -1,1 +1,1 @@
-print('-' * len("2"))
+print('-' * len())

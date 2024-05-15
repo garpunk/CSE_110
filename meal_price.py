@@ -8,31 +8,31 @@ Purpose: computing the price of a meal
 
 '''
 #01. prompt Ask the user for the price of a child meal
-child_meal_price = input("What is the price of a child's meal?")
+child_meal_price = input("What is the price of a child's meal($)?")
 
 #02. prompt Ask the user for the price of an adult meal
-adult_meal_price = input(" \n What is the price of an adult's meal?")
+adult_meal_price = input(" \n What is the price of an adult's meal($)?")
 
 #03. prompt Ask the user for the price of drinks
-drinks_price = input(" \n What is the price of drinks?")
+drinks_price = input(" \n What is the price of drinks($)?")
 
 #04. prompt Asker user for price of dessert
-dessert_price = input(" \n What is the price of dessert?")
+dessert_price = input(" \n What is the price of dessert($)?")
 
 
-#04. prompt Ask the user for the number of children 
+#05. prompt Ask the user for the number of children 
 children = input(" \n How many children are there?")
 
-#05. prompt Ask the user for the number of adults
+#06. prompt Ask the user for the number of adults
 adults = input(" \n How many adults are there?")
 
-#06. prompt Ask the user for number of drinks purchased
+#07. prompt Ask the user for number of drinks purchased
 drinks = input(" \n How many drinks would you like to order?")
 
-# prompt Ask the user for the number of desserts purchased
+#08. prompt Ask the user for the number of desserts purchased
 desserts = input(" \n How many desserts would you like to order?")
 
-#07. prompt Ask the user for the sales tax rate 
+#09. prompt Ask the user for the sales tax rate 
 sales_tax = input(" \n What is the sales tax rate(%)?")
 
 # calculate child meal total
@@ -77,7 +77,7 @@ meal_tax_ans = print(f"Sales Tax: ${str(meal_tax_round)}")
 # display meal total
 meal_total_ans = print(f"Total: ${str(meal_total_round)}")
 
-#08. prompt Ask user for payment amount
+#10. prompt Ask user for payment amount
 payment = input(" \n What is the payment amount?")
 
 # calculate payment 

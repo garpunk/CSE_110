@@ -13,7 +13,7 @@ first_num = input("What is the first number?")
 second_num = input("What is the second number?") 
 if first_num > second_num:             
    print("The first number is greater")
-elif first_num < second_num:
+else:
    print("The second number is greater")
 
 if first_num != second_num:
@@ -21,10 +21,6 @@ if first_num != second_num:
 elif first_num == second_num:
    print("The numbers are equal")
 
-if first_num > second_num:
-   print("The second number is not greater")
-elif first_num < second_num:
-   print("The second number is greater")
 
 
 fav_animal = input("What is your favorite animal?")

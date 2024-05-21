@@ -62,6 +62,7 @@ if grade >= 70:
 else:
     print("You failed!")
 
+#add little easter egg where if the grade is 120+ it prints this statement
 if grade >= 120:
     print(""" \n ...how the heck did you get so many points?
           You Einstein or something?""")

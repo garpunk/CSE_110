@@ -12,6 +12,7 @@ Purpose: grade calculation for school
 grade = int(input("What is your grade(%)?"))
 
 #calculate letter grade according to int value of input, first part
+#This code was changed and updated in second edition below
 '''if grade >= 90:
     print("Your grade is an A!")
 elif grade >= 80:

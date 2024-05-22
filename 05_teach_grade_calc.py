@@ -41,6 +41,7 @@ plus_minus_grade = grade % 10
 
 
 #logic to determine correct output 
+#put A+ calculation first to correct A- bug
 if grade >= 97:
     print(f"You're grade is {letter}+")
 elif plus_minus_grade >= 7:
@@ -51,9 +52,6 @@ elif 57 <= grade <= 59:
     print(f"You're grade is {letter}+")
 elif grade <= 53:
     print(f"You're grade is {letter}-")
-
-
-
 else:
     print(f"You're grade is {letter}")
 
